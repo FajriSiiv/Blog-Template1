@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins" !important;
+}
+
+body .button-top {
+  bottom: 7vh;
+  right: 5vh;
+  cursor: pointer;
+  z-index: 999;
+}
+
+body .button-top i {
+  font-size: 3rem;
+  color: #4ac3be;
+  transition: all 0.3s;
+}
+
+body .button-top i:hover {
+  color: #427996;
+}
+
+.main-otherpage {
+  padding-top: 100px;
+}
+
+.main-otherpage .img img {
+  width: 80vw;
+  height: 100%;
+}
+
+.main-otherpage .judul {
+  padding: 50px 0;
+  border-bottom: 3px solid #c4c4c4;
+}
+
+.main-otherpage .judul h1 {
+  font-weight: bolder;
+}
+
+.main-otherpage .judul p {
+  color: #718096;
+}
+
+.main-otherpage .isi-page {
+  padding: 50px 20px;
+}
+
+.main-otherpage .isi-page p {
+  font-size: 1.2rem;
+  color: #718096;
+  text-align: justify;
+}
+
+.main-otherpage .isi-page strong {
+  font-size: 1.5rem;
+  line-height: 50px;
+}
+
+.main-otherpage .isi-page h3 {
+  font-weight: bold;
+}
+/*# sourceMappingURL=otherpage.css.map */

@@ -1,0 +1,58 @@
+$text-transparent: #718096;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins" !important;
+  .button-top {
+    bottom: 7vh;
+    right: 5vh;
+    cursor: pointer;
+    z-index: 999;
+    i {
+      font-size: 3rem;
+      color: #4ac3be;
+      transition: all 0.3s;
+      &:hover {
+        color: #427996;
+      }
+    }
+  }
+}
+.main-otherpage {
+  padding-top: 100px;
+  .img {
+    img {
+      width: 80vw;
+      height: 100%;
+    }
+  }
+  .judul {
+    padding: 50px 0;
+    border-bottom: 3px solid rgb(196, 196, 196);
+    h1 {
+      font-weight: bolder;
+    }
+    p {
+      color: $text-transparent;
+    }
+  }
+  .isi-page {
+    padding: 50px 20px;
+    p {
+      font-size: 1.2rem;
+      color: $text-transparent;
+      text-align: justify;
+    }
+    strong {
+      font-size: 1.5rem;
+      line-height: 50px;
+    }
+    h3 {
+      font-weight: bold;
+    }
+  }
+}
